@@ -9,3 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # install applications via Homebrew
 # using Brewfile, created from `brew bundle dump`
 brew bundle --file=./Brewfile
+
+# -- optional --
+# copy Latexmk to home directory
+cp ./.latexmkrc ~/.latexmkrc
