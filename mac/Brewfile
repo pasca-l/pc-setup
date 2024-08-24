@@ -1,6 +1,8 @@
 tap "homebrew/bundle"
+brew "cocoapods"
 brew "go"
 brew "mas"
+brew "nodebrew"
 cask "discord"
 cask "docker"
 cask "google-chrome"
@@ -15,3 +17,4 @@ cask "visual-studio-code"
 cask "whatsapp"
 cask "zerotier-one"
 mas "LINE", id: 539883307
+mas "Xcode", id: 497799835
