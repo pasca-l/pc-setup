@@ -1,20 +1,20 @@
+tap "hashicorp/tap"
 tap "homebrew/bundle"
-brew "cocoapods"
+
 brew "go"
+brew "hashicorp/tap/terraform"
+brew "jq"
 brew "mas"
 brew "nodebrew"
-cask "discord"
-cask "docker"
+brew "yq"
+
+cask "claude-code"
+cask "docker-desktop"
 cask "google-chrome"
 cask "mactex-no-gui"
 cask "microsoft-auto-update"
 cask "microsoft-excel"
 cask "microsoft-powerpoint"
-cask "minecraft"
-cask "notion"
-cask "slack"
 cask "visual-studio-code"
-cask "whatsapp"
-cask "zerotier-one"
-mas "LINE", id: 539883307
+
 mas "Xcode", id: 497799835
